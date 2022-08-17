@@ -1,0 +1,3 @@
+﻿  Projeto_Domino.c
+C:\Users\ra00319514\source\repos\Projeto_Domino\Projeto_Domino\Projeto_Domino.c(49,9): warning C4101: 'positionSave': variável local não referenciada
+  Projeto_Domino.vcxproj -> C:\Users\ra00319514\source\repos\Projeto_Domino\x64\Debug\Projeto_Domino.exe
