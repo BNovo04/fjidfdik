@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1661352833 source:c:\users\ra00319514\documents\codeblocks\domino\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<time.h>
+	<Windows.h>
+	<stdbool.h>
+	"functions.h"
+	"uivisuals.h"
+	"estruturas.h"
+
+1661352718 c:\users\ra00319514\documents\codeblocks\domino\functions.h
+	"estruturas.h"
+
+1661352481 c:\users\ra00319514\documents\codeblocks\domino\estruturas.h
+	<stdio.h>
+	<stdlib.h>
+
+1661352750 c:\users\ra00319514\documents\codeblocks\domino\uivisuals.h
+
