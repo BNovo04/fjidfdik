@@ -26,21 +26,24 @@ void initalizeStack(struct dominos pieces[28]) {
 
 //Embaralha as peças
 void shufflePieces(struct dominos pieces[28]) {
-    int k;
-    int positionSave;
-    bool checkStackPos = true;
-    bool foo = false;
-
-    for (int i = 0; i < 28; i++) {
-        do {
-            k = rand() % 28;
-            for (int j = 0; j < 28; j++) {
-                if (pieces[28].stackPosition == k) {
-
-                }
-            }
-        } while (checkStackPos);
-    }
+	struct domino piece;
+	struct domino *domino, *dominos, *store = NULL;
+	int i, j, k=0, flags[28];
+	dominos = stack()
+	for(i=0; i<28; i++) flags[i] = 0;
+	    while(k < 28){
+		    srand((time(NULL)+i++));
+		    j = rand() % 28;
+		if(flags[j]) continue;
+		domino = &dominos[j];
+		if(store != NULL){
+			store->antes = domino;
+			domino->depois = store;
+		}
+		store = domino;
+		flags[j] = 1;
+		k++;
+	}
 }
 
 void determinaJogadores(){
